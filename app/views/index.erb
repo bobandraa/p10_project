@@ -5,7 +5,6 @@
     </nav>
   </section>
 </header>
-
 <section>
   <div id="carousel" class="carousel slide">
     <ol class="carousel-indicators">
@@ -21,7 +20,7 @@
         <div class="carousel-caption">
           <h1>BLOGS</h1>
           <p>
-            <a href="./blog-posts/blog_posts_index.html">CHECK OUT</a> BLOG POSTS FROM PHASE 0 OF DEV BOOTCAMP, SAN FRANCISCO.
+            <a href="http://bobandraa.github.io/blog-posts/blog_posts_index.html">CHECK OUT</a> BLOG POSTS FROM PHASE 0 OF DEV BOOTCAMP, SAN FRANCISCO.
           </p>
         </div>
       </div>
@@ -67,9 +66,9 @@
     <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
   </div>
 </section>
-<section >
-  <div class="container-fluid">
-    <div class="col-md-10 col-md-offset-1 entries">
+<section id="section_three">
+  <div class="container-fluid row">
+    <div class="col-md-10 col-md-offset-1 entries ">
           <div class="pre_content">
             <img src="http://i.imgur.com/vO76cPR.png"/></a>
             <p class="blog_formatting">
@@ -81,60 +80,35 @@
 </section>
 
 <footer id="footer">
-  <section id="contact">
-    <h1>
-      <a>Contact</a>
-    </h1>
+  <section>
     <h2>
       Get in touch with me
     </h2>
-    <div class="row social">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="col-md-2">
-          <div class="center_content">
-            <a href='https://www.facebook.com/sandra.bobandra.1227'>
-              <span aria-hidden="true" data-icon="&#xe602;"></span>
-            </a>
-          </div>
-        </div>
-        <div class="footer_hover">
-          <div class="col-md-2">
-            <div class="center_content">
-              <a href='https://plus.google.com/118325061503822654615'>
-                <span aria-hidden="true" data-icon="&#xe601;"></span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="center_content">
-              <a href='https://github.com/bobandraa'>
-                <span aria-hidden="true" data-icon="&#xe604;"></span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="center_content">
-              <a href='https://www.linkedin.com/in/sandrancohen'>
-                <span aria-hidden="true" data-icon="&#xe605;"></span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="center_content">
-              <a href='https://twitter.com/_Bobandra'>
-                <span aria-hidden="true" data-icon="&#xe603;"></span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="center_content">
-              <a href='mailto:sandra.cohen.ux@gmail.com'>
-                <span aria-hidden="true" data-icon="&#xe600;"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="social center_content">
+    <ul class="social">
+      <li>
+       <a href='https://www.facebook.com/sandra.bobandra.1227'></a>
+       <span aria-hidden="true" data-icon="&#xe602;"></span>
+     </li>
+      <li>
+        <a href='https://plus.google.com/118325061503822654615'></a>
+        <span aria-hidden="true" data-icon="&#xe601;"></span>
+     </li>
+      <li>
+       <a href='https://github.com/bobandraa'></a>
+       <span aria-hidden="true" data-icon="&#xe604;"></span>
+     </li>
+      <li>
+       <a href='https://www.linkedin.com/in/sandrancohen'></a>
+       <span aria-hidden="true" data-icon="&#xe605;"></span>
+     </li>
+      <li>
+       <a href='https://twitter.com/_Bobandra'></a>
+       <span aria-hidden="true" data-icon="&#xe603;"></span>
+     </li>
+    </ul>
+      <%= erb :_contact_form %>
+    </div>
     </section>
   </footer>
 
