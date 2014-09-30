@@ -1,7 +1,6 @@
 body{
   font-family: proxima-nova, sans-serif;
   font-weight: lighter;
-  /*width: 100%;*/
   margin: 0;
 }
 
@@ -91,7 +90,6 @@ header {
   color: #FFF;
   font-size: 1em;
   font-family: proxima-nova, sans-serif;
-
   font-weight: 200;
   letter-spacing: 0.1em;
 
@@ -107,15 +105,10 @@ header {
 }
 .carousel-control {
   height: 100%;
-  /*width: 15%;*/
   font-size: 5em;
   color: black;
-  /*text-align: center;*/
-  /*text-shadow: 0 1px 2px rgba(0,0,0,.6);*/
   opacity: .4;
 }
-
-
 
 .pre_content{
   letter-spacing: 1px;
@@ -135,6 +128,7 @@ header {
 .center_content{
   text-align: center;
 }
+
 .center_blogs {
   text-align: center;
 
@@ -143,12 +137,6 @@ header {
 .blog_formatting{
   padding: 2em;
 }
-  /*Email Box*/
-
-.btn-style{
-
-}
-
 
 /*Links*/
 
@@ -176,107 +164,87 @@ h2{
   padding: 10px 15px 30px 15px;
   font-family: proxima-nova;
   letter-spacing: 0.3em;
-    }
+}
 
 
-/*
-  h4{
-    padding: 20px 0px 15px;
+/*Contact Icons*/
+
+@font-face {
+  font-family: 'IcoMoon';
+  src: url('../fonts/icomoon.woff') format('woff');
+}
+
+[data-icon]:before {
+  font-family: 'IcoMoon';
+  content: attr(data-icon);
+  font-size: 2.250em;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #161616;
+  color: #fff;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding: 1em;
+}
+
+ul li:hover{
+  font-size: 1.1em;
+}
+
+/*Tablet*/
+@media screen and (max-width: 911px){
+
+  header span{
+    float: left;
+    padding: 20px 10px 5px 40px;
+    font-size: 26px;
+    color: #9F000F;
+    font-weight: lighter;
   }
 
-  h3{
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    }*/
-  /*code h3{
-    text-align: center;
-    padding: 3px 15px 3px 15px;
+  nav ul{
+    margin: 1%; /* make top nav banner thinner*/
+    width: 85%;
+    float: right;
   }
 
-  ul li{
-    letter-spacing: 2px;
-    padding: 3px;
-    color: #990000;
-    }*/
-
-    /*Contact Icons*/
-
-    @font-face {
-      font-family: 'IcoMoon';
-      src: url('../fonts/icomoon.woff') format('woff');
-    }
-
-    [data-icon]:before {
-      font-family: 'IcoMoon';
-      content: attr(data-icon);
-      font-size: 2.250em;
-    }
-
-    /*Footer*/
-
-    footer {
-      background-color: #161616;
-      color: #fff;
-    }
-    ul li{
-      list-style: none;
-      display: inline;
-      padding: 1em;
-    }
-
-    ul li:hover{
-      font-size: 1.1em;
-    }
-
-    /*Tablet*/
-    @media screen and (max-width: 911px){
-
-      header span{
-        float: left;
-        padding: 20px 10px 5px 40px;
-        font-size: 26px;
-        color: #9F000F;
-        font-weight: lighter;
-      }
-
-      nav ul{
-        margin: 1%; /* make top nav banner thinner*/
-        width: 85%;
-        float: right;
-      }
-
-    }
+}
 
 
-    /*Mobile*/
-    @media screen and (max-width: 536px){
+/*Mobile*/
+@media screen and (max-width: 536px){
 
-      header nav ul li a{
-        text-align: center;
-        float: none;
-        clear: both;
-      }
+  header nav ul li a{
+    text-align: center;
+    float: none;
+    clear: both;
+  }
 
-      header span{
-      }
-      nav ul{
-        margin: 3%; /* make top nav banner thinner*/
-        width: 90%;
-        float: right;
-      }
+  header span{
+  }
+  nav ul{
+    margin: 3%; /* make top nav banner thinner*/
+    width: 90%;
+    float: right;
+  }
 
-      nav ul li {
-        background-color: #E9ECEC;
-        list-style-type: none;
-        padding-right: 20px;
-      }
+  nav ul li {
+    background-color: #E9ECEC;
+    list-style-type: none;
+    padding-right: 20px;
+  }
 
-      nav ul li a {
-        text-decoration: none;
-        float: right;
-        line-height: 5px;
-        font-size: 15px;
-      }
+  nav ul li a {
+    text-decoration: none;
+    float: right;
+    line-height: 5px;
+    font-size: 15px;
+  }
 
 
-    }
+}
