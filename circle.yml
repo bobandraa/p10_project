@@ -2,4 +2,4 @@ deployment:
   production:
     branch: sandra
     heroku:
-      appname: we-jam
+      appname: bobandra-index
