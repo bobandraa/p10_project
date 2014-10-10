@@ -1,5 +1,5 @@
 deployment:
   production:
-    branch: master
+    branch: sandra
     heroku:
       appname: we-jam
