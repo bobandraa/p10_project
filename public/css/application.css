@@ -60,7 +60,7 @@ header {
   background: #1e1e1d;
   padding: 5px 30px;
   margin: 0 auto ;
-  width: 40%;
+  width: 45%;
 }
 
 
@@ -210,6 +210,10 @@ ul li:hover{
     margin: 1%; /* make top nav banner thinner*/
     width: 85%;
     float: right;
+  }
+   #contact-form-box{
+    margin: 0 auto ;
+    width: 80%;
   }
 
 }
