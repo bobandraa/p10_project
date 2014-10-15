@@ -60,7 +60,7 @@ header {
   background: #1e1e1d;
   padding: 5px 30px;
   margin: 0 auto ;
-  width: 40%;
+  width: 45%;
 }
 
 
@@ -211,6 +211,10 @@ ul li:hover{
     width: 85%;
     float: right;
   }
+   #contact-form-box{
+    margin: 0 auto ;
+    width: 80%;
+  }
 
 }
 
@@ -244,11 +248,30 @@ ul li:hover{
     font-size: 15px;
   }
 
-img.ri
-{
-  max-width: 80%;
-  top: 10%;
-  left: 10%;
-  border-radius: 3px;
-}
+  img.ri
+  {
+    max-width: 80%;
+    top: 10%;
+    left: 10%;
+    border-radius: 3px;
+  }
+
+  .pre_content{
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  #contact-form-box{
+    margin: 0 auto ;
+    width: 80%;
+  }
+
+  input.ri {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
 }
