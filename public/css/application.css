@@ -141,10 +141,10 @@ header {
 /*Links*/
 
 a {
-  color: black;
+  color: #FFF;
   font-family: proxima-nova, sans-serif;
-
 }
+
 a:hover{
   text-decoration: none;
   color: #FFF;
@@ -203,7 +203,6 @@ ul li:hover{
     float: left;
     padding: 20px 10px 5px 40px;
     font-size: 26px;
-    color: #9F000F;
     font-weight: lighter;
   }
 
@@ -225,8 +224,7 @@ ul li:hover{
     clear: both;
   }
 
-  header span{
-  }
+
   nav ul{
     margin: 3%; /* make top nav banner thinner*/
     width: 90%;
@@ -246,5 +244,11 @@ ul li:hover{
     font-size: 15px;
   }
 
-
+img.ri
+{
+  max-width: 80%;
+  top: 10%;
+  left: 10%;
+  border-radius: 3px;
+}
 }
