@@ -141,10 +141,10 @@ header {
 /*Links*/
 
 a {
-  color: black;
+  color: #FFF;
   font-family: proxima-nova, sans-serif;
-
 }
+
 a:hover{
   text-decoration: none;
   color: #FFF;
