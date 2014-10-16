@@ -60,7 +60,7 @@ header {
   background: #1e1e1d;
   padding: 5px 30px;
   margin: 0 auto ;
-  width: 40%;
+  width: 45%;
 }
 
 
@@ -141,10 +141,10 @@ header {
 /*Links*/
 
 a {
-  color: black;
+  color: #FFF;
   font-family: proxima-nova, sans-serif;
-
 }
+
 a:hover{
   text-decoration: none;
   color: #FFF;
@@ -203,7 +203,6 @@ ul li:hover{
     float: left;
     padding: 20px 10px 5px 40px;
     font-size: 26px;
-    color: #9F000F;
     font-weight: lighter;
   }
 
@@ -211,6 +210,10 @@ ul li:hover{
     margin: 1%; /* make top nav banner thinner*/
     width: 85%;
     float: right;
+  }
+   #contact-form-box{
+    margin: 0 auto ;
+    width: 80%;
   }
 
 }
@@ -225,8 +228,7 @@ ul li:hover{
     clear: both;
   }
 
-  header span{
-  }
+
   nav ul{
     margin: 3%; /* make top nav banner thinner*/
     width: 90%;
@@ -246,5 +248,30 @@ ul li:hover{
     font-size: 15px;
   }
 
+  img.ri
+  {
+    max-width: 80%;
+    top: 10%;
+    left: 10%;
+    border-radius: 3px;
+  }
 
+  .pre_content{
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  #contact-form-box{
+    margin: 0 auto ;
+    width: 80%;
+  }
+
+  input.ri {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
 }
