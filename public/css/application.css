@@ -142,20 +142,20 @@ header {
 
 a {
   color: #FFF;
-  font-family: proxima-nova, sans-serif;
+  font-family: proxima-nova;
 }
 
 a:hover{
   text-decoration: none;
   color: #FFF;
-  font-family: proxima-nova, sans-serif;
+  font-family: proxima-nova;
   letter-spacing: 0.2em;
 }
 
 a span::hover{
   text-decoration: none;
   color: #C63D0F;
-  font-family: proxima-nova, sans-serif;
+  font-family: proxima-nova;
   letter-spacing: 0.2em;
 }
 
